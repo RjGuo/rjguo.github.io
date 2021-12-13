@@ -16,15 +16,15 @@
   <meta name="description" content="">
   <meta name="author" content="Rongjing Guo">
   <meta name="keywords" content="">
-  <meta name="description" content="Efficient ab initio method for calculations of electron-defect scatteringAs is known to all, electron-phonon interactions govern charge carriers dynamics at room temperature, where they play intrinsic">
+  <meta name="description" content="Efficient ab initio method for calculations of electron-defect scatteringIntroductionAs is known to all, electron-phonon interactions govern charge carriers dynamics at room temperature, where they pl">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Efficient ab initio method for calculations of electron-defect scattering">
 <meta property="og:url" content="http://example.com/2021/12/05/1/index.html">
 <meta property="og:site_name" content="Rongjing Guo&#39;s Website">
-<meta property="og:description" content="Efficient ab initio method for calculations of electron-defect scatteringAs is known to all, electron-phonon interactions govern charge carriers dynamics at room temperature, where they play intrinsic">
+<meta property="og:description" content="Efficient ab initio method for calculations of electron-defect scatteringIntroductionAs is known to all, electron-phonon interactions govern charge carriers dynamics at room temperature, where they pl">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-12-06T05:46:25.000Z">
-<meta property="article:modified_time" content="2021-12-06T05:52:49.483Z">
+<meta property="article:modified_time" content="2021-12-13T08:01:56.364Z">
 <meta property="article:author" content="Rongjing Guo">
 <meta name="twitter:card" content="summary_large_image">
   
@@ -203,7 +203,7 @@
   
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      374 字
+      1.2k 字
     </span>
   
 
@@ -212,7 +212,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      1 分钟
+      4 分钟
     </span>
   
 
@@ -244,8 +244,11 @@
             <h1 style="display: none">Efficient ab initio method for calculations of electron-defect scattering</h1>
             
             <div class="markdown-body">
-              <h2 id="Efficient-ab-initio-method-for-calculations-of-electron-defect-scattering"><a href="#Efficient-ab-initio-method-for-calculations-of-electron-defect-scattering" class="headerlink" title="Efficient ab initio method for calculations of electron-defect scattering"></a>Efficient <em>ab initio</em> method for calculations of electron-defect scattering</h2><p>As is known to all, electron-phonon interactions govern charge carriers dynamics at room temperature, where they play intrinsic roles in limiting carrier mobility.On the other hand, just like phonons, defects in materials can also scatter or capture charge carriers. They become significant for carrier dynamics at low temperature,where phonons are frozen out.</p>
-
+              <h2 id="Efficient-ab-initio-method-for-calculations-of-electron-defect-scattering"><a href="#Efficient-ab-initio-method-for-calculations-of-electron-defect-scattering" class="headerlink" title="Efficient ab initio method for calculations of electron-defect scattering"></a>Efficient <em>ab initio</em> method for calculations of electron-defect scattering</h2><h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>As is known to all, electron-phonon interactions govern charge carriers dynamics at room temperature, where they play intrinsic roles in limiting carrier mobility.On the other hand, just like phonons, defects in materials can also scatter or capture charge carriers. They become significant for carrier dynamics at low temperature,where phonons are frozen out.</p>
+<p>However, first-principle calculations of electron-defect interactions are still in their infancy. Those calculations need large supercells to obtain the electron wave function and defect perturbation potentials, which may lead huge computational cost. Here, I’d like to introduce a more efficient scheme to compute the electron-defect scattering matrix elements. This approach is firstly proposed by Bernardi’s group at Caltech, and it dose not require the wave functions of large supercells, which dramatically accelerates the calculations.</p>
+<h2 id="Methodology"><a href="#Methodology" class="headerlink" title="Methodology"></a>Methodology</h2><p>The electron-defect scattering matrix elements <script type="math/tex">M_{n^{\prime} k^{\prime} , nk}</script> encode the probability amplitude from the unperturbed state <script type="math/tex">|nk\rangle</script> to <script type="math/tex">|n^\prime k^\prime \rangle</script> due to the perturbation potential <script type="math/tex">\Delta V_{e-d}</script> from a defect:</p>
+<script type="math/tex; mode=display">
+M_{n^{\prime} k^{\prime} , nk} = \langle n^\prime k^\prime | \Delta V_{e-d} | nk\rangle</script>
             </div>
             <hr>
             <div>
@@ -421,6 +424,48 @@
 
 
 
+
+  
+
+  
+    <!-- MathJax -->
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+        loader: {
+          load: ['ui/lazy']
+        },
+        options: {
+          renderActions: {
+            findScript: [10, doc => {
+              document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+                const display = !!node.type.match(/; *mode=display/);
+                const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                const text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = { node: text, delim: '', n: 0 };
+                math.end = { node: text, delim: '', n: 0 };
+                doc.math.push(math);
+              });
+            }, '', false],
+            insertedScript: [200, () => {
+              document.querySelectorAll('mjx-container').forEach(node => {
+                let target = node.parentNode;
+                if (target.nodeName.toLowerCase() === 'li') {
+                  target.parentNode.classList.add('has-jax');
+                }
+              });
+            }, '', false]
+          }
+        }
+      };
+    </script>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" ></script>
+
+  
 
 
 
