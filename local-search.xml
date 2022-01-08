@@ -8,7 +8,7 @@
     <link href="/2022/01/07/6/"/>
     <url>/2022/01/07/6/</url>
     
-    <content type="html"><![CDATA[<h2 id="Brief-Discussion-of-Machine-Learning-in-Condensed-Matter-Physics-and-Computational-Material-Science"><a href="#Brief-Discussion-of-Machine-Learning-in-Condensed-Matter-Physics-and-Computational-Material-Science" class="headerlink" title="Brief Discussion of Machine Learning in Condensed Matter Physics and Computational Material Science"></a>Brief Discussion of Machine Learning in Condensed Matter Physics and Computational Material Science</h2>]]></content>
+    <content type="html"><![CDATA[<h1 id="Brief-Discussion-of-Machine-Learning-in-Condensed-Matter-Physics-and-Computational-Material-Science"><a href="#Brief-Discussion-of-Machine-Learning-in-Condensed-Matter-Physics-and-Computational-Material-Science" class="headerlink" title="Brief Discussion of Machine Learning in Condensed Matter Physics and Computational Material Science"></a>Brief Discussion of Machine Learning in Condensed Matter Physics and Computational Material Science</h1>]]></content>
     
     
     
@@ -21,7 +21,7 @@
     <link href="/2021/12/06/2/"/>
     <url>/2021/12/06/2/</url>
     
-    <content type="html"><![CDATA[<h2 id="How-to-Become-a-Qualified-Wannierizer"><a href="#How-to-Become-a-Qualified-Wannierizer" class="headerlink" title="How to Become a Qualified Wannierizer?"></a>How to Become a Qualified Wannierizer?</h2><p>Maximally-localized Wannier functions.</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="How-to-Become-a-Qualified-Wannierizer"><a href="#How-to-Become-a-Qualified-Wannierizer" class="headerlink" title="How to Become a Qualified Wannierizer?"></a>How to Become a Qualified Wannierizer?</h1><p>Maximally-localized Wannier functions.</p>]]></content>
     
     
     
@@ -34,7 +34,7 @@
     <link href="/2021/12/05/1/"/>
     <url>/2021/12/05/1/</url>
     
-    <content type="html"><![CDATA[<h2 id="Efficient-Ab-initio-Method-for-Calculations-of-Electron-Defect-Scattering"><a href="#Efficient-Ab-initio-Method-for-Calculations-of-Electron-Defect-Scattering" class="headerlink" title="Efficient Ab initio Method for Calculations of Electron-Defect Scattering"></a>Efficient <em>Ab initio</em> Method for Calculations of Electron-Defect Scattering</h2><h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>As is known to all, electron-phonon interactions govern charge carriers dynamics at room temperature, where they play intrinsic roles in limiting carrier mobility.On the other hand, just like phonons, defects in materials can also scatter or capture charge carriers. They become significant for carrier dynamics at low temperature,where phonons are frozen out.</p><p>However, first-principle calculations of electron-defect interactions are still in their infancy. Those calculations need large supercells to obtain the electron wave function and defect perturbation potentials, which may lead huge computational cost. Here, I’d like to introduce a more efficient scheme to compute the electron-defect scattering matrix elements. This approach is firstly proposed by Bernardi’s group at Caltech, and it dose not require the wave functions of large supercells, which dramatically accelerates the calculations.</p><h2 id="Methodology"><a href="#Methodology" class="headerlink" title="Methodology"></a>Methodology</h2><p>The electron-defect scattering matrix elements $M_{n^{\prime} k^{\prime} , nk}$ encode the probability amplitude from the unperturbed state $|nk\rangle$ to $|n^\prime k^\prime \rangle$ due to the perturbation potential $\Delta V_{e-d}$ from a defect:<br>$$<br>M_{n^{\prime} k^{\prime} , nk} = \langle n^\prime k^\prime | \Delta V_{e-d} | nk\rangle<br>$$</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="Efficient-Ab-initio-Method-for-Calculations-of-Electron-Defect-Scattering"><a href="#Efficient-Ab-initio-Method-for-Calculations-of-Electron-Defect-Scattering" class="headerlink" title="Efficient Ab initio Method for Calculations of Electron-Defect Scattering"></a>Efficient <em>Ab initio</em> Method for Calculations of Electron-Defect Scattering</h1><h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>As is known to all, electron-phonon interactions govern charge carriers dynamics at room temperature, where they play intrinsic roles in limiting carrier mobility.On the other hand, just like phonons, defects in materials can also scatter or capture charge carriers. They become significant for carrier dynamics at low temperature,where phonons are frozen out.</p><p>However, first-principle calculations of electron-defect interactions are still in their infancy. Those calculations need large supercells to obtain the electron wave function and defect perturbation potentials, which may lead huge computational cost. Here, I’d like to introduce a more efficient scheme to compute the electron-defect scattering matrix elements. This approach is firstly proposed by Bernardi’s group at Caltech, and it dose not require the wave functions of large supercells, which dramatically accelerates the calculations.</p><h2 id="Methodology"><a href="#Methodology" class="headerlink" title="Methodology"></a>Methodology</h2><p>The electron-defect scattering matrix elements $M_{n^{\prime} k^{\prime} , nk}$ encode the probability amplitude from the unperturbed state $|nk\rangle$ to $|n^\prime k^\prime \rangle$ due to the perturbation potential $\Delta V_{e-d}$ from a defect:<br>$$<br>M_{n^{\prime} k^{\prime} , nk} = \langle n^\prime k^\prime | \Delta V_{e-d} | nk\rangle<br>$$</p>]]></content>
     
     
     
@@ -47,7 +47,7 @@
     <link href="/2021/12/04/5/"/>
     <url>/2021/12/04/5/</url>
     
-    <content type="html"><![CDATA[<h2 id="Optimizing-Contraction-order-of-the-Tensor-Network-Generated-from-Google-Sycamore-Quantum-Circuit"><a href="#Optimizing-Contraction-order-of-the-Tensor-Network-Generated-from-Google-Sycamore-Quantum-Circuit" class="headerlink" title="Optimizing Contraction order of the Tensor Network Generated from Google Sycamore Quantum Circuit"></a>Optimizing Contraction order of the Tensor Network Generated from Google Sycamore Quantum Circuit</h2>]]></content>
+    <content type="html"><![CDATA[<h1 id="Optimizing-Contraction-order-of-the-Tensor-Network-Generated-from-Google-Sycamore-Quantum-Circuit"><a href="#Optimizing-Contraction-order-of-the-Tensor-Network-Generated-from-Google-Sycamore-Quantum-Circuit" class="headerlink" title="Optimizing Contraction order of the Tensor Network Generated from Google Sycamore Quantum Circuit"></a>Optimizing Contraction order of the Tensor Network Generated from Google Sycamore Quantum Circuit</h1>]]></content>
     
     
     
@@ -60,7 +60,7 @@
     <link href="/2021/12/03/3/"/>
     <url>/2021/12/03/3/</url>
     
-    <content type="html"><![CDATA[<h2 id="Topological-Phase-Transition-in-Two-dimensional-skyrmion-materials"><a href="#Topological-Phase-Transition-in-Two-dimensional-skyrmion-materials" class="headerlink" title="Topological Phase Transition in Two-dimensional skyrmion materials"></a>Topological Phase Transition in Two-dimensional skyrmion materials</h2>]]></content>
+    <content type="html"><![CDATA[<h1 id="Topological-Phase-Transition-in-Two-dimensional-skyrmion-materials"><a href="#Topological-Phase-Transition-in-Two-dimensional-skyrmion-materials" class="headerlink" title="Topological Phase Transition in Two-dimensional skyrmion materials"></a>Topological Phase Transition in Two-dimensional skyrmion materials</h1>]]></content>
     
     
     
@@ -73,7 +73,7 @@
     <link href="/2021/12/02/4/"/>
     <url>/2021/12/02/4/</url>
     
-    <content type="html"><![CDATA[<h2 id="Valleytronics-in-Two-dimensional-systems"><a href="#Valleytronics-in-Two-dimensional-systems" class="headerlink" title="Valleytronics in Two-dimensional systems"></a>Valleytronics in Two-dimensional systems</h2>]]></content>
+    <content type="html"><![CDATA[<h1 id="Valleytronics-in-Two-dimensional-systems"><a href="#Valleytronics-in-Two-dimensional-systems" class="headerlink" title="Valleytronics in Two-dimensional systems"></a>Valleytronics in Two-dimensional systems</h1><h2 id="Valley"><a href="#Valley" class="headerlink" title="Valley"></a>Valley</h2><p>In analogy to charge for electronics and spin for spintronics, valley, as a new degree of freedom for electrons, can be utilized to encode and process information, which is characterized as Valleytronics and has drawn considerable attention due to its significant potential for developing next-generation minimized devices.</p><p>The valley refers to a local energy minimum (maximum) in conduction (valence) band at the K and K’ points in the first Brillouin Zone, which is robust against phonon and defect scatterings due to the large separation in the momentum space. Therefore, two-dimensional materials with hexagonal lattice should be the most competitive candidates to be applied in valleytronic devices.<br><img src="/img/valley1.png" width="36%" height="36%"></p><h2 id="Valley-polarization"><a href="#Valley-polarization" class="headerlink" title="Valley polarization"></a>Valley polarization</h2><p>In order to distinguish non-equivalent valleys, the major challenage in two-dimensional valley materials is  to break the degeneracy between the valleys, thus forming the valley polarization, which opens a window for capturing the valley degree of freedom and is indispensable for valleytronic applications.</p><h2 id="Valley-hall-effect-and-Berry-curvature"><a href="#Valley-hall-effect-and-Berry-curvature" class="headerlink" title="Valley hall effect and Berry curvature"></a>Valley hall effect and Berry curvature</h2><h2 id="Perspective-from-electron-mobility"><a href="#Perspective-from-electron-mobility" class="headerlink" title="Perspective (from electron mobility)"></a>Perspective (from electron mobility)</h2>]]></content>
     
     
     
