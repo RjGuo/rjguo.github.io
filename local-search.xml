@@ -11,6 +11,18 @@
     <content type="html"><![CDATA[<h2 id="Brief-Discussion-of-Machine-Learning-in-Condensed-Matter-Physics-and-Computational-Material-Science"><a href="#Brief-Discussion-of-Machine-Learning-in-Condensed-Matter-Physics-and-Computational-Material-Science" class="headerlink" title="Brief Discussion of Machine Learning in Condensed Matter Physics and Computational Material Science"></a>Brief Discussion of Machine Learning in Condensed Matter Physics and Computational Material Science</h2><p>Machine learning (ML) encompasses a broad range of algorithms and modeling tools used for a vast array of data processing tasks, which has entered most scientific disciplines such as data science, finance, verious of natural science and engineering in recent years. Looking at an ample spectrum of fields of physics (ranging from statistical and quantum many-body to chemistry and materials to high energy and cosmology), machine learning recently made a prominent appearance and produced a large number of creative and interesting masterpieces. So someone may ask, “Is  everything can be machine learned?”</p><p>That is an extremely open and interesting question. Here I hope to focus our view on physical sciences.</p>]]></content>
     
     
+    <categories>
+      
+      <category>Comments</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Machine Learning.</tag>
+      
+    </tags>
     
   </entry>
   
@@ -24,6 +36,20 @@
     <content type="html"><![CDATA[<h2 id="Valleytronics-in-Two-dimensional-systems"><a href="#Valleytronics-in-Two-dimensional-systems" class="headerlink" title="Valleytronics in Two-dimensional systems"></a>Valleytronics in Two-dimensional systems</h2><h2 id="Valley"><a href="#Valley" class="headerlink" title="Valley"></a>Valley</h2><p>In analogy to charge for electronics and spin for spintronics, valley, as a new degree of freedom for electrons, can be utilized to encode and process information, which is characterized as Valleytronics and has drawn considerable attention due to its significant potential for developing next-generation minimized devices.</p><p>The valley refers to a local energy minimum (maximum) in conduction (valence) band at the K and K’ points in the first Brillouin Zone, which is robust against phonon and defect scatterings due to the large separation in the momentum space. Therefore, two-dimensional materials with hexagonal lattice should be the most competitive candidates to be applied in valleytronic devices.</p><img src="/img/valley/valley1.png" width="95%" height="95%"><h2 id="Valley-polarization"><a href="#Valley-polarization" class="headerlink" title="Valley polarization"></a>Valley polarization</h2><p>In order to distinguish non-equivalent valleys, the major challenage in two-dimensional valley materials is  to break the degeneracy between the valleys, thus forming the valley polarization, which opens a window for capturing the valley degree of freedom and is indispensable for valleytronic applications. The degeneracy between valleys results in the protections of inversion symmetry and time-reversal symmetry. Therefore, monolayers of 2H-phase transition metal dichalcogenides (TMDs) are the most promising candidates for valley polarization, since the inversion symmetry for their structures is explicitly broken, and noncentrosymmetry together with intrinsic spin-orbit coupling (SOC) derived from the <em>d</em> orbitals of heavy transition metals lead spin and valley degree of freedom couple strongly. As a result, in TMDs monolayers, it is very fundamental and effective to introduce an external magnetic field to break the time-reversal symmetry and induce valley splitting. Unfortunately, the extreme field strength for a sizable valley splitting is not accessible in practice use. To explore intrinsic valley polarization in TMDs is thus highly desirable.</p><img src="/img/valley/valley2.png" width="95%" height="95%"><h2 id="Ferrovalley-property"><a href="#Ferrovalley-property" class="headerlink" title="Ferrovalley property"></a>Ferrovalley property</h2><p>In analogy to ferroelectric materials with spontaneous charge polarization, or ferromagnetic materials with spontaneous spin polarization, here we introduce a new member of ferroic family, that is, a ferrovalley material with spontaneous valley polarization.</p><p>we rebuild the Hamiltonian for the classical monolayers of TMDs, and point out that the coexistence of the SOC effect and exchange interaction of localized d electrons is the sufficient condition for spontaneous valley polarization in this kind of systems.</p><p>In order to break the time-reversal symmetry and induce the valley polarization, additional term $H_{ex}(k)$ is introduced into the effective Hamiltonian.</p><img src="/img/valley/eq1.png" width="95%" height="95%"><p>The first term with up to second-nearest-neighbour hopping is given by:</p><img src="/img/valley/eq2.png" width="95%" height="95%"><p>The second term describes the SOC:</p><img src="/img/valley/eq3.png" width="95%" height="95%"><p>The last and most crucial term originates from the intrinsic exchange interaction of transition-metal <em>d</em> electrons:</p><img src="/img/valley/eq4.png" width="95%" height="95%"><p>where the $\sigma_z$ is the Pauli matrix and $m_u (m_l)$ represents the spliting energy in the band edge of UB(LB)</p><p>The exchange interaction, equivalent to an intrinsic magnetic field, tends to split the spin-majority and spin-minority states. Combining the SOC effect that leads to coupled spin and valley indexes with the valley-independent exchange interaction, the valley polarization is therefore feasible.</p><img src="/img/valley/valley3.png" width="95%" height="95%"><p>Simple numerical result is shown above. </p><h2 id="Perspective-from-electron-mobility"><a href="#Perspective-from-electron-mobility" class="headerlink" title="Perspective (from electron mobility)"></a>Perspective (from electron mobility)</h2><img src="/img/valley/valley4.png" width="95%" height="95%"><p>There has been a number of comprehensive discussions towards the future perspectives of information processing and other practical applications of valleytronics. Here I would like to give a viewpoint from electron mobility. As you may know, electron mobility can be affacted by electron inter-valley scatterings, which originate from the same energy level of the valleys. However, single-valley states, which intrinsically holds only one valley and thus robust valley-polarized physics, was discovered in valleytronics research. This single-valley feature can block or suppress the inter-valley scatterings, especially the scatterings caused by electron-defect interactions, which may increase the electron mobility in these materials.</p><h3 id="References"><a href="#References" class="headerlink" title="References"></a>References</h3><ol><li>Nat. Commun. 7, 13612 (2016)</li><li>Phys. Rev. B. 104, 205430 (2021)</li></ol><h3 id="Codes"><a href="#Codes" class="headerlink" title="Codes"></a>Codes</h3><p>The simplified codes of numerical result based on <a href="https://qutip.org/"><font color=DeepSkyBlue>QuTip</font></a> can be accessed via my <a href="https://nbviewer.org/github/grj-skyline/littleproj/blob/main/Ferrovalley.ipynb"><font color=DeepSkyBlue>jupyter notebook viewer</font></a>. </p>]]></content>
     
     
+    <categories>
+      
+      <category>Research</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Valleytronics.</tag>
+      
+      <tag>Quantum Material.</tag>
+      
+    </tags>
     
   </entry>
   
@@ -37,6 +63,20 @@
     <content type="html"><![CDATA[<h2 id="How-to-Become-a-Qualified-Wannierizer"><a href="#How-to-Become-a-Qualified-Wannierizer" class="headerlink" title="How to Become a Qualified Wannierizer?"></a>How to Become a Qualified Wannierizer?</h2><p>Maximally-localized Wannier functions.</p>]]></content>
     
     
+    <categories>
+      
+      <category>Research</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Density Functional Theory.</tag>
+      
+      <tag>Wannier Function.</tag>
+      
+    </tags>
     
   </entry>
   
@@ -50,6 +90,20 @@
     <content type="html"><![CDATA[<h2 id="Efficient-Ab-initio-Method-for-Calculations-of-Electron-Defect-Scattering"><a href="#Efficient-Ab-initio-Method-for-Calculations-of-Electron-Defect-Scattering" class="headerlink" title="Efficient Ab initio Method for Calculations of Electron-Defect Scattering"></a>Efficient <em>Ab initio</em> Method for Calculations of Electron-Defect Scattering</h2><h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>As is known to all, electron-phonon interactions govern charge carriers dynamics at room temperature, where they play intrinsic roles in limiting carrier mobility.On the other hand, just like phonons, defects in materials can also scatter or capture charge carriers. They become significant for carrier dynamics at low temperature,where phonons are frozen out.</p><p>However, first-principle calculations of electron-defect interactions are still in their infancy. Those calculations need large supercells to obtain the electron wave function and defect perturbation potentials, which may lead huge computational cost. Here, I’d like to introduce a more efficient scheme to compute the electron-defect scattering matrix elements. This approach is firstly proposed by Bernardi’s group at Caltech, and it dose not require the wave functions of large supercells, which dramatically accelerates the calculations.</p><h2 id="Methodology"><a href="#Methodology" class="headerlink" title="Methodology"></a>Methodology</h2><p>The electron-defect scattering matrix elements $M_{n^{\prime} k^{\prime} , nk}$ encode the probability amplitude from the unperturbed state $|nk\rangle$ to $|n^\prime k^\prime \rangle$ due to the perturbation potential $\Delta V_{e-d}$ from a defect:<br>$$<br>M_{n^{\prime} k^{\prime} , nk} = \langle n^\prime k^\prime | \Delta V_{e-d} | nk\rangle<br>$$</p>]]></content>
     
     
+    <categories>
+      
+      <category>Research</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Density Functional Theory.</tag>
+      
+      <tag>Electron-Defect Interaction.</tag>
+      
+    </tags>
     
   </entry>
   
@@ -63,6 +117,20 @@
     <content type="html"><![CDATA[<h2 id="Optimizing-Contraction-order-of-the-Tensor-Network-Generated-from-Google-Sycamore-Quantum-Circuit"><a href="#Optimizing-Contraction-order-of-the-Tensor-Network-Generated-from-Google-Sycamore-Quantum-Circuit" class="headerlink" title="Optimizing Contraction order of the Tensor Network Generated from Google Sycamore Quantum Circuit"></a>Optimizing Contraction order of the Tensor Network Generated from Google Sycamore Quantum Circuit</h2>]]></content>
     
     
+    <categories>
+      
+      <category>Research</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Quantum Computation.</tag>
+      
+      <tag>Tensor Network.</tag>
+      
+    </tags>
     
   </entry>
   
@@ -76,6 +144,20 @@
     <content type="html"><![CDATA[<h2 id="Two-dimensional-skyrmion-materials-and-Topological-Phase-Transition"><a href="#Two-dimensional-skyrmion-materials-and-Topological-Phase-Transition" class="headerlink" title="Two-dimensional skyrmion materials and Topological Phase Transition"></a>Two-dimensional skyrmion materials and Topological Phase Transition</h2><h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>In the very recent study, the topological defect states represented by skyrmion are reported that they can exist in three-dimensional B20-type chiral bulk materials and heterostructures, because their inversion symmetry breaking nature lead to strong spin-orbital coupling (SOC), and thus forming Dzyaloshinskii-Moriya interaction (DMI). Strong DMI is able to compete with Heisenberg exchange interaction, leading the formation of spin textures with topological protected nature. However, there are few reports about spin textures state such as skyrmion in two dimensional monolayers. Due to the high density of scattering phonons in monolayer semiconductors, the electron mobility is low, which is an insurmountable bottleneck for high-speed information storage. On the contrary, skyrmion has the property of low driving current threshold and very high mobility, therefore it can be used as an ideal information carrier in the application of racetrack memory, which may pave a way to overcome the bottleneck of electron’s low mobility. In addition, the transition between  deferent spin textures can lead topological phase transition, which is able to form a new degree of freedom by coupling ferroelectricity in two-dimensional materials. It provides a new direction for the development of next generation spintronic devices.</p><h2 id="Dzyaloshinskii-Moriya-interaction"><a href="#Dzyaloshinskii-Moriya-interaction" class="headerlink" title="Dzyaloshinskii-Moriya interaction"></a>Dzyaloshinskii-Moriya interaction</h2><p>Dzyaloshinskii-Moriya interaction (DMI), like magnetic exchange interaction, is effective between adjacent spins in materials, and it is the most factor in the formation of spin texture states. DMI originates from the spin-orbital coupling (SOC) of electrons in atoms contributing spin. Its specific expression can be derived by using the perturbation theory in quantum mechanics with the Anderson superexchange model including SOC term:</p><img src="/img/skyrmion/eq1.png" width="95%" height="95%"><p>where $J$ represents the coupling strength of the exchange interaction. If the ground state of this system is non-degenerate, the above formula is able to be rewritten as :</p><img src="/img/skyrmion/eq2.png" width="95%" height="95%"><p>which is considered as the math expression of DMI. The obvious feature of DMI is that the adjacent spins tend to be orthogonal, which presents a striking contrast to Heisenberg exchange interaction.</p><h2 id="Two-formation-mechanisms-of-DMI"><a href="#Two-formation-mechanisms-of-DMI" class="headerlink" title="Two formation mechanisms of DMI"></a>Two formation mechanisms of DMI</h2><h3 id="Fert-Levy-type-DMI"><a href="#Fert-Levy-type-DMI" class="headerlink" title="Fert-Levy type DMI"></a>Fert-Levy type DMI</h3><p>In recent study, most of  monolayers were protected by inversion symmetry, leading the absence of SOC and DMI. Fortunately, Janus transition metal dichalcogenides monolayers with asymmetry sandwich-like structures (MXY) hold intrinsic broken inversion symmetry, that is, the central atom of the middle layer connects different kinds of upper and lower atoms. Through the calculations of atomic SOC energy in MXY monolayer, it is found that the SOC term contributed by the heavier nearest chalcogenide atoms dominates the DMI, and the greater the difference between X atom and Y atom, the stronger SOC and the stronger DMI in the material. This is very similar to the formation mechanism of DMI in ferromagnetic/ heavy metal atom heterojunction materials. In this kind of heterojunction, the SOC strength is dominated by 5$d$ heavy transition metal atoms at the interface layer, which is known as the Fert-Levy mechanism of DMI.</p><h3 id="Rashba-type-DMI"><a href="#Rashba-type-DMI" class="headerlink" title="Rashba type DMI"></a>Rashba type DMI</h3><h2 id="Topological-transition"><a href="#Topological-transition" class="headerlink" title="Topological transition"></a>Topological transition</h2>]]></content>
     
     
+    <categories>
+      
+      <category>Research</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Skyrmion.</tag>
+      
+      <tag>Quantum Material.</tag>
+      
+    </tags>
     
   </entry>
   
